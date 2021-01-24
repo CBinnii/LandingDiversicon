@@ -66,6 +66,11 @@ body {
 	color: $branco;
 	background: image-url('bg.png') $preto center right -50px no-repeat;
     background-size: 1100px;
+
+    @media screen and (max-width: 767px) {
+		background: image-url('bg.png') $preto center right -70px no-repeat;
+		background-size: 580px;
+    }
 	
 	// &:-moz-selection {	
 	// 	background: #b3d4fc;

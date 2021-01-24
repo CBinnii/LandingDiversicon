@@ -7,8 +7,8 @@
 		height: 600px;
 	}
 
-	@media screen and (max-height: 400px) {
-		height: 900px;
+	@media screen and (max-height: 550px) {
+		height: auto;
 	}
 
 	.landing_about {
@@ -78,6 +78,10 @@
 		display: block;
 		margin: 0 auto;
 
+		@media screen and (max-width: 450px) {
+			width: 250px;
+		}
+
 		@media screen and (min-width: 768px) {
 			position: absolute;
 			top: 50%;
@@ -101,6 +105,10 @@
 			@media screen and (max-width: 767px) {
 				max-width: 300px;
 			}
+
+			@media screen and (max-width: 450px) {
+				max-width: 250px;
+			}
 		}
 	}
 
@@ -114,6 +122,8 @@
 			position: absolute;
 			right: 0;
 			top: 0;
+			left: inherit;
+    		transform: none;
 		}
 
 		img {
