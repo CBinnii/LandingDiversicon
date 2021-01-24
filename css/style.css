@@ -11152,6 +11152,7 @@ body {
   width: 300px;
   display: block;
   margin: 20px auto;
+  z-index: 1;
 }
 @media screen and (max-width: 450px) {
   .landing .landing_img-central {
@@ -11166,6 +11167,7 @@ body {
     width: calc(100% - 30px);
     display: flex;
     justify-content: center;
+    z-index: -1;
   }
 }
 .landing .landing_img-central img {
