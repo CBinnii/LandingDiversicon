@@ -11041,6 +11041,12 @@ body {
   background: url('../images/bg.png?1611453528') #000000 center right -50px no-repeat;
   background-size: 1100px;
 }
+@media screen and (min-width: 1400) {
+  body {
+    background: url('../images/bg.png?1611453528') #000000 center center no-repeat;
+    background-size: 100%;
+  }
+}
 @media screen and (max-width: 767px) {
   body {
     background: url('../images/bg.png?1611453528') #000000 center right -70px no-repeat;
