@@ -1,10 +1,14 @@
 .landing {
 	height: 100vh;
-	padding: 15px;
+	padding: 25px;
 	position: relative;
 
-	@media screen and (max-height: 800px) {
-		height: 600px;
+	// @media screen and (max-height: 800px) {
+	// 	height: 600px;
+	// }
+
+	@media screen and (max-width: 767px) {
+		height: auto;
 	}
 
 	@media screen and (max-height: 550px) {
@@ -26,7 +30,7 @@
 			text-transform: uppercase;
 
 			@media screen and (min-width: 2000px) {
-				font-size: 3vw;
+				font-size: 4vw;
 			}
 
 			@media screen and (max-width: 1400px) {
@@ -68,6 +72,7 @@
 
 			a {
 				color: $vermelho;
+				text-decoration: underline;
 			}			
 		}
 	}
@@ -79,8 +84,12 @@
 		margin: 20px auto;
 		z-index: 1;
 
+		> div {
+			margin-left: 15px;
+		}
+
 		@media screen and (max-width: 450px) {
-			width: 250px;
+			width: 280px;
 		}
 
 		@media screen and (min-width: 768px) {
@@ -109,14 +118,14 @@
 			}
 
 			@media screen and (max-width: 450px) {
-				max-width: 250px;
+				max-width: 280px;
 			}
 		}
 	}
 
 	.landing_image-logo {
 		position: absolute;
-		left: -50px;
+		left: -35px;
 		top: 40%;
 		transform: translateY(-40%);
 
@@ -138,12 +147,18 @@
 			}
 
 			@media screen and (max-width: 767px) {
-				width: 100px;
+				width: 110px;
 			}
 		}
 	}
 }
 
 .footer {
-	padding: 15px;
+	padding: 25px;
+
+	@media screen and (max-width: 767px) {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
 }

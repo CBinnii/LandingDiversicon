@@ -16,3 +16,14 @@
 	font-style: normal;
 	font-display: swap;
 }
+
+@font-face {
+	font-family: 'Druk';
+	src: url('../font/Druk-Bold.woff2') format('woff2'),
+	     url('../font/Druk-Bold.woff') format('woff'),
+	     url('../font/Druk-Bold.ttf')  format('truetype'),
+		 url('../font/Druk-Bold.eot') format('eot');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

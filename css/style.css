@@ -12,6 +12,13 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Druk';
+  src: url("../font/Druk-Bold.woff2") format("woff2"), url("../font/Druk-Bold.woff") format("woff"), url("../font/Druk-Bold.ttf") format("truetype"), url("../font/Druk-Bold.eot") format("eot");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -11041,7 +11048,7 @@ body {
   background: url('../images/bg.png?1611453528') #000000 center right -50px no-repeat;
   background-size: 1100px;
 }
-@media screen and (min-width: 1400) {
+@media screen and (min-width: 1400px) {
   body {
     background: url('../images/bg.png?1611453528') #000000 center center no-repeat;
     background-size: 100%;
@@ -11051,6 +11058,7 @@ body {
   body {
     background: url('../images/bg.png?1611453528') #000000 center right -70px no-repeat;
     background-size: 580px;
+    height: 100vh;
   }
 }
 
@@ -11079,12 +11087,12 @@ body {
 }
 .landing {
   height: 100vh;
-  padding: 15px;
+  padding: 25px;
   position: relative;
 }
-@media screen and (max-height: 800px) {
+@media screen and (max-width: 767px) {
   .landing {
-    height: 600px;
+    height: auto;
   }
 }
 @media screen and (max-height: 550px) {
@@ -11108,7 +11116,7 @@ body {
 }
 @media screen and (min-width: 2000px) {
   .landing .landing_about h1 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -11152,6 +11160,7 @@ body {
 }
 .landing .landing_about p a {
   color: #FF3333;
+  text-decoration: underline;
 }
 .landing .landing_img-central {
   position: relative;
@@ -11160,9 +11169,12 @@ body {
   margin: 20px auto;
   z-index: 1;
 }
+.landing .landing_img-central > div {
+  margin-left: 15px;
+}
 @media screen and (max-width: 450px) {
   .landing .landing_img-central {
-    width: 250px;
+    width: 280px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -11196,12 +11208,12 @@ body {
 }
 @media screen and (max-width: 450px) {
   .landing .landing_img-central img {
-    max-width: 250px;
+    max-width: 280px;
   }
 }
 .landing .landing_image-logo {
   position: absolute;
-  left: -50px;
+  left: -35px;
   top: 40%;
   transform: translateY(-40%);
 }
@@ -11226,10 +11238,17 @@ body {
 }
 @media screen and (max-width: 767px) {
   .landing .landing_image-logo img {
-    width: 100px;
+    width: 110px;
   }
 }
 
 .footer {
-  padding: 15px;
+  padding: 25px;
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 }
