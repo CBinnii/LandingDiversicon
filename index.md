@@ -39,6 +39,60 @@
 					<div class="landing_image-logo onlymobi">
 						<img src="images/diversicon-logo.png" alt="Logo Diversicon">
 					</div>
+					<img src="images/diversicon-central.gif" alt="Diversicon">
+				</div>
+			</div>
+
+			<div class="footer">
+				<img src="images/logo.svg" alt="Logo">
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no,maximum-scale=1,minimum-scale=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Diversicon</title>
+		<link rel="icon" type="image/x-icon" href="images/icon.png">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="content landing">
+			<div class="landing_about">
+				<div class="landing_when">
+					<h1>09, 10 & 11/4 <br> online</h1>
+				</div>
+
+				<div class="landing_what">
+					<ul>
+						<li>Debates</li>
+						<li>Performances</li>
+						<li>Stands profissionais</li>
+						<li>Música</li>
+					</ul>
+
+					<p>Acompanhe no <br> <a href="" title="">Instagram</a> e <a href="" title="">Facebook</a></p>
+				</div>
+			</div>
+
+			<div class="landing_image-logo onlydesk">
+				<img src="images/diversicon-logo.png" alt="Logo Diversicon">
+			</div>
+
+			<div class="landing_img-central">
+				<div>
+					<div class="landing_image-logo onlymobi">
+						<img src="images/diversicon-logo.png" alt="Logo Diversicon">
+					</div>
 					<img src="images/diversicon-central.svg" alt="Diversicon">
 				</div>
 			</div>
