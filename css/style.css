@@ -11051,6 +11051,7 @@ body {
 @media screen and (max-width: 767px) {
   body {
     background: url('../images/background-mobile.jpg?1615049641') #000000 no-repeat;
+    background-size: cover;
     height: 100vh;
   }
 }

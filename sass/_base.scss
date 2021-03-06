@@ -69,6 +69,7 @@ body {
 
 	@media screen and (max-width: 767px) {
 		background: image-url('background-mobile.jpg') $preto no-repeat;
+		background-size: cover;
 		height: 100vh;
 	}
 }
