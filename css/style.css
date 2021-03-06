@@ -11243,8 +11243,7 @@ body {
 .landing .landing_image-logo {
   position: absolute;
   left: 0;
-  top: 40%;
-  transform: translateY(-40%);
+  bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .landing .landing_image-logo {
