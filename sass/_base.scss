@@ -64,18 +64,11 @@ body {
 
 body {
 	color: $branco;
-	background: image-url('bg.png') $preto center right -50px no-repeat;
-	background-size: 1100px;
-
-	@media screen and (min-width: 1400px) {
-		background: image-url('bg.png') $preto center center no-repeat;
-		background-size: 100%;
-	}
+	background: image-url('background-desktop.jpg') $preto no-repeat;
+	background-size: cover;
 
 	@media screen and (max-width: 767px) {
-		background: image-url('bg.png') $preto center right -70px no-repeat;
-		background-size: 580px;
-
+		background: image-url('background-mobile.jpg') $preto no-repeat;
 		height: 100vh;
 	}
 }

@@ -11045,19 +11045,12 @@ body {
 
 body {
   color: #FFFFFF;
-  background: url('../images/bg.png?1611453528') #000000 center right -50px no-repeat;
-  background-size: 1100px;
-}
-@media screen and (min-width: 1400px) {
-  body {
-    background: url('../images/bg.png?1611453528') #000000 center center no-repeat;
-    background-size: 100%;
-  }
+  background: url('../images/background-desktop.jpg?1615049367') #000000 no-repeat;
+  background-size: cover;
 }
 @media screen and (max-width: 767px) {
   body {
-    background: url('../images/bg.png?1611453528') #000000 center right -70px no-repeat;
-    background-size: 580px;
+    background: url('../images/background-mobile.jpg?1615049641') #000000 no-repeat;
     height: 100vh;
   }
 }
@@ -11087,12 +11080,13 @@ body {
 }
 .landing {
   height: 100vh;
-  padding: 25px;
+  padding: 38px;
   position: relative;
 }
 @media screen and (max-width: 767px) {
   .landing {
     height: auto;
+    padding: 30px;
   }
 }
 @media screen and (max-height: 550px) {
@@ -11111,46 +11105,55 @@ body {
   font-size: 90px;
   margin: 0;
   padding: 0;
-  line-height: 1.3;
+  line-height: 80px;
   text-transform: uppercase;
 }
 @media screen and (min-width: 2000px) {
   .landing .landing_about h1 {
     font-size: 4vw;
+    line-height: 3vw;
   }
 }
 @media screen and (max-width: 1400px) {
   .landing .landing_about h1 {
     font-size: 60px;
+    line-height: 50px;
   }
 }
 @media screen and (max-width: 991px) {
   .landing .landing_about h1 {
     font-size: 50px;
+    line-height: 50px;
   }
 }
 @media screen and (max-width: 767px) {
   .landing .landing_about h1 {
     font-size: 35px;
-    line-height: 1.1;
+    line-height: 35px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .landing .landing_about .landing_what {
+    margin-top: 20px;
   }
 }
 .landing .landing_about ul {
   font-family: 'Akkurat-Mono';
-  line-height: 1.5;
 }
 .landing .landing_about ul li {
   font-size: 13px;
+  line-height: 16px;
 }
 @media screen and (min-width: 2000px) {
   .landing .landing_about ul li {
     font-size: 1vw;
+    line-height: 1.1vw;
   }
 }
 .landing .landing_about p {
   font-size: 13px;
   font-family: 'Akkurat-Mono';
-  line-height: 1.3;
+  line-height: 16px;
   padding: 15px 0;
 }
 @media screen and (min-width: 2000px) {
@@ -11168,25 +11171,42 @@ body {
   width: 300px;
   display: block;
   margin: 20px auto;
+  margin-top: 65px;
   z-index: 1;
 }
 .landing .landing_img-central > div {
   margin-left: 15px;
 }
+@media screen and (max-width: 1400px) {
+  .landing .landing_img-central > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .landing .landing_img-central > div img {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .landing .landing_img-central > div {
+    margin-left: 35px;
+  }
+}
 @media screen and (max-width: 450px) {
   .landing .landing_img-central {
-    width: 280px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
   .landing .landing_img-central {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: calc(100% - 30px);
+    top: 0;
+    width: calc(100% - 76px);
     display: flex;
+    margin: 0;
     justify-content: center;
     z-index: -1;
+    height: 100%;
   }
 }
 .landing .landing_img-central img {
@@ -11204,25 +11224,25 @@ body {
 }
 @media screen and (max-width: 767px) {
   .landing .landing_img-central img {
-    max-width: 300px;
+    max-width: 290px;
   }
 }
 @media screen and (max-width: 450px) {
   .landing .landing_img-central img {
-    max-width: 280px;
+    max-width: 270px;
   }
 }
 .landing .landing_image-logo {
   position: absolute;
-  left: -35px;
+  left: 0;
   top: 40%;
   transform: translateY(-40%);
 }
 @media screen and (min-width: 768px) {
   .landing .landing_image-logo {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 25px;
+    top: 25px;
     left: inherit;
     transform: none;
   }
@@ -11244,12 +11264,15 @@ body {
 }
 
 .footer {
-  padding: 25px;
+  position: absolute;
+  bottom: 38px;
+  left: 38px;
+  display: flex;
 }
 @media screen and (max-width: 767px) {
   .footer {
     position: fixed;
-    bottom: 0;
+    bottom: 30px;
     width: 100%;
   }
 }
