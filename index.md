@@ -15,7 +15,7 @@
 		<div class="content landing">
 			<div class="landing_about">
 				<div class="landing_when">
-					<h1>26, 27 & 28/3 <br> online</h1>
+					<h1>09, 10 & 11/4 <br> online</h1>
 				</div>
 
 				<div class="landing_what">
@@ -35,15 +35,17 @@
 			</div>
 
 			<div class="landing_img-central">
-				<div class="landing_image-logo onlymobi">
-					<img src="images/diversicon-logo.png" alt="Logo Diversicon">
+				<div>
+					<div class="landing_image-logo onlymobi">
+						<img src="images/diversicon-logo.png" alt="Logo Diversicon">
+					</div>
+					<img src="images/diversicon-central.svg" alt="Diversicon">
 				</div>
-				<img src="images/diversicon-central.svg" alt="Diversicon">
 			</div>
-		</div>
 
-		<div class="footer">
-			<img src="images/logo.svg" alt="Logo">
+			<div class="footer">
+				<img src="images/logo.svg" alt="Logo">
+			</div>
 		</div>
 
 		<script src="js/jquery.min.js"></script>
