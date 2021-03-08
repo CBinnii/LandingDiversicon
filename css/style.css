@@ -11272,15 +11272,42 @@ body {
 
 .footer {
   position: absolute;
-  bottom: 38px;
-  left: 38px;
+  bottom: 0;
+  left: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 767px) {
   .footer {
     position: fixed;
-    left: 30px;
-    bottom: 30px;
-    width: calc(100% - 60px);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+.footer .footer-logo {
+  padding: 38px;
+}
+@media screen and (max-width: 767px) {
+  .footer .footer-logo {
+    padding: 30px;
+  }
+}
+.footer .footer-secretaria {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .footer .footer-secretaria {
+    padding: 20px;
+  }
+}
+.footer .footer-secretaria img {
+  max-width: 72%;
+}
+@media screen and (max-width: 767px) {
+  .footer .footer-secretaria img {
+    max-width: 100%;
   }
 }
