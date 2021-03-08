@@ -11200,7 +11200,7 @@ body {
 }
 @media screen and (max-width: 450px) {
   .landing .landing_img-central {
-    width: 300px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -11279,7 +11279,8 @@ body {
 @media screen and (max-width: 767px) {
   .footer {
     position: fixed;
+    left: 30px;
     bottom: 30px;
-    width: 100%;
+    width: calc(100% - 60px);
   }
 }
