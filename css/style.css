@@ -11216,8 +11216,8 @@ body {
   }
 }
 .landing .landing_img-central img {
-  max-width: 600px;
-  margin-top: 95px;
+  max-width: 550px;
+  margin-top: 75px;
 }
 @media screen and (min-width: 2000px) {
   .landing .landing_img-central img {
@@ -11276,6 +11276,7 @@ body {
   left: 0;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .footer {
@@ -11286,25 +11287,28 @@ body {
   }
 }
 .footer .footer-logo {
-  padding: 38px;
+  padding: 0 0 38px 38px;
+  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .footer .footer-logo {
-    padding: 30px;
+    padding: 0 0 30px 30px;
   }
 }
 .footer .footer-secretaria {
   background-color: #FFFFFF;
   text-align: center;
-  padding: 20px 0;
+  padding: 0;
+  padding-top: 10px;
+  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .footer .footer-secretaria {
-    padding: 20px;
+    padding: 10px;
   }
 }
 .footer .footer-secretaria img {
-  max-width: 72%;
+  max-width: 70%;
 }
 @media screen and (max-width: 767px) {
   .footer .footer-secretaria img {
